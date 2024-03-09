@@ -1,4 +1,5 @@
 mod intro;
+mod method;
 mod rectangle;
 
 pub fn main() {
@@ -6,4 +7,6 @@ pub fn main() {
   intro::main();
   println!("==rectangle==");
   rectangle::main();
+  println!("==method==");
+  method::main();
 }
