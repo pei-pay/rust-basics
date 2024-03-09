@@ -1,7 +1,7 @@
 mod function;
-mod string;
 mod references_and_borrowing;
 mod slice;
+mod string;
 
 pub fn main() {
   println!("==string==");
