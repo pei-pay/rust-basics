@@ -60,6 +60,6 @@ fn change2(some_string: &mut String) {
 
 // -> The solution here is to return the String directly:
 fn no_dangle() -> String {
-    let s = String::from("hello");
-    s
+  let s = String::from("hello");
+  s
 }
