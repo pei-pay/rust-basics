@@ -1,6 +1,9 @@
 mod intro;
+mod rectangle;
 
 pub fn main() {
-  println!("==instance==");
+  println!("==intro==");
   intro::main();
+  println!("==rectangle==");
+  rectangle::main();
 }
