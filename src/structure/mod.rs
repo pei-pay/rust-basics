@@ -1,6 +1,6 @@
-mod instance;
+mod intro;
 
 pub fn main() {
   println!("==instance==");
-  instance::main();
+  intro::main();
 }
