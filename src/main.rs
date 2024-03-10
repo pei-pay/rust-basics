@@ -1,4 +1,5 @@
 mod basic;
+mod enum_type;
 mod ownership;
 mod structure;
 
@@ -9,4 +10,6 @@ fn main() {
   ownership::main();
   println!("===Struct===");
   structure::main();
+  println!("===Enum===");
+  enum_type::main()
 }
